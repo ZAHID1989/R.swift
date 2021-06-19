@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc       = true
  
-  s spec.source = { :http => "https://github.com/mac-cain13/R.swift/releases/download/v#{spec.version}/rswift-#{spec.version}.zip" }
+  spec.source = { :http => "https://github.com/mac-cain13/R.swift/releases/download/v#{spec.version}/rswift-#{spec.version}.zip" }
   spec.swift_version      = "5.1"
 
   spec.ios.deployment_target     = '9.0'
