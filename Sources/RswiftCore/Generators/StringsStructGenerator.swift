@@ -253,7 +253,7 @@ struct StringsStructGenerator: ExternalOnlyStructGenerator {
       doesThrow: false,
       returnType: Type._String,
       body: """
-        guard let preferredLanguages = preferredLanguages else {
+        guard let preferredLanguages = preferredLanguages ?? currentLanguageCode else {
           return \(values.swiftCode(bundle: "hostingBundle"))
         }
 
@@ -297,7 +297,7 @@ struct StringsStructGenerator: ExternalOnlyStructGenerator {
       doesThrow: false,
       returnType: Type._String,
       body: """
-        guard let preferredLanguages = preferredLanguages else {
+        guard let preferredLanguages = preferredLanguages ?? currentLanguageCode else {
           let format = \(values.swiftCode(bundle: "hostingBundle"))
           return String(format: format, locale: applicationLocale, \(args))
         }
