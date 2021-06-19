@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "R.swift"
-  spec.version      = '5.4.0'
+  spec.version      = '5.0.0.alpha.9'
   spec.license      = "MIT"
 
   spec.summary      = "Get strong typed, autocompleted resources like images, fonts and segues in Swift projects"
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc       = true
  
-  spec.source = { :git => 'https://github.com/ZAHID1989/R.swift.git', :tag => spec.version }
+  s spec.source = { :http => "https://github.com/mac-cain13/R.swift/releases/download/v#{spec.version}/rswift-#{spec.version}.zip" }
   spec.swift_version      = "5.1"
 
   spec.ios.deployment_target     = '9.0'
