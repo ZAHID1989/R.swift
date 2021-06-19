@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '9.0'
   spec.watchos.deployment_target = '2.2'
 
-  #spec.dependency "R.swift.Library", "~> 5.3.9"
+  spec.dependency "R.swift.Library", 
 
   spec.preserve_paths = "rswift"
 
