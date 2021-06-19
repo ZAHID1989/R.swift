@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
                    * Supports images, fonts, storyboards, nibs, segues, reuse identifiers and more
                    * Compile time checks and errors instead of runtime crashes
                    DESC
-  spec.homepage     = "https://github.com/mac-cain13/R.swift"
+  spec.homepage     = "https://github.com/ZAHID1989/R.swift.git"
   spec.documentation_url = "https://github.com/mac-cain13/R.swift/tree/master/Documentation"
   spec.screenshots  = [ "https://raw.githubusercontent.com/mac-cain13/R.swift/master/Documentation/Images/DemoUseImage.gif",
                         "https://raw.githubusercontent.com/mac-cain13/R.swift/master/Documentation/Images/DemoRenameImage.gif" ]
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '9.0'
   spec.watchos.deployment_target = '2.2'
 
-  spec.dependency "R.swift.Library", "~> 5.3.0"
+  spec.dependency "R.swift.Library", "~> 5.3.9"
 
   spec.preserve_paths = "rswift"
 
