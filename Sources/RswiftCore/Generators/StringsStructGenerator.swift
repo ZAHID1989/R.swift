@@ -7,7 +7,11 @@
 //  License: MIT License
 //
 
+
+
 import Foundation
+
+var currentLanguageCode: String?
 
 struct StringsStructGenerator: ExternalOnlyStructGenerator {
   private let localizableStrings: [LocalizableStrings]
